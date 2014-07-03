@@ -235,6 +235,7 @@ There is a special variable in all templates named : `content`.
 The `content` variable holds the page/post content including any sub-template content previously defined.
 Render the content variable wherever you want your main content to be injected into your template:
 
+{% highlight html %}
 {% capture text %}...
 <body>
   <div id="sidebar"> ... </div>
@@ -243,6 +244,7 @@ Render the content variable wherever you want your main content to be injected i
   </div>
 </body>
 ...{% endcapture %}
+{% endhighlight %}
 {% include JB/liquid_raw %}
 
 ### Sub-Templates
