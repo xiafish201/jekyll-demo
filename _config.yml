@@ -85,7 +85,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : xiafish201
     livefyre :
       site_id : 123
     intensedebate :
